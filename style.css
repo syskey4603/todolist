@@ -1,0 +1,78 @@
+.curvedbutton {
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.curvedbutton:active,
+.curvedbutton:focus {
+    outline: none;
+}
+
+.curvedbutton:hover {
+    background-color: #000000
+}
+
+.button-21:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+header,
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+header {
+    background-color: #000000c9;
+    box-shadow: 0 0 30px 0 #3f19fc;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li:not(:nth-child(3)) {
+    margin-right: 30px;
+}
+
+header ul li a:hover {
+    transition: 0.3s all;
+    background-color: #000000d5;
+}
+
+header ul li a {
+    color: #ccc;
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s all;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
